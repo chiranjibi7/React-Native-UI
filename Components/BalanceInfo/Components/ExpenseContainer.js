@@ -28,11 +28,11 @@ const styles = StyleSheet.create({
     expenseContainer:{
         flexDirection:'row',
         justifyContent:'space-around',
-        alignItems:'center'
+        alignItems:'center',
     },
     cardItem:{
         height:180,
-        width:150,
+        width:160,
         padding:15,
         justifyContent:'space-evenly'
     },
