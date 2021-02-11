@@ -1,1 +1,1 @@
-<img src="./assets/ui.jpg>" />
+<img src="https://github.com/chiranjibi7/React-Native-UI/blob/second-ui/assets/ui.jpg" />
