@@ -13,7 +13,7 @@ export default Follow
 
 const styles = StyleSheet.create({
     follow:{
-        marginTop:50,
+        marginVertical:60,
         backgroundColor: '#A826A3',
         padding:17,
         borderTopLeftRadius:50,

@@ -5,9 +5,9 @@ const Description = () => {
   return (
     <View style={styles.description}>
       <Text>
-        Sr. UI/UX Design Director @RespoGrid Sr. UI/UX Design Director Formerly interactive director at @Mithun Formerly interactive director at @MithunFormerly interactive director at @Mithun Formerly interactive director at @Mithun Formerly interactive director at @Mithun If you have a project dont hesitate to email me: mithunrayy@gmail.com If you have a project dont hesitate to email me: mithunrayy@gmail.com
-       
+        Sr. UI/UX Design Director @RespoGrid Formerly interactive director at @Mithun 
       </Text>
+      <Text>If you have a project dont hesitate to email me: mithunrayy@gmail.com</Text>
     </View>
   );
 };
