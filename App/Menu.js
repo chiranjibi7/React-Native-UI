@@ -1,14 +1,16 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
 const Menu = () => {
   return (
+    <TouchableOpacity>
     <View style={styles.menu}>
       <View>
-        <View style={styles.item}></View>
-        <View style={styles.item}></View>
+        <View style={{...styles.item,width: 15}}></View>
+        <View style={{...styles.item,width: 20}}></View>
       </View>
     </View>
+    </TouchableOpacity>
   );
 };
 
@@ -25,7 +27,6 @@ const styles = StyleSheet.create({
   },
   item: {
     backgroundColor: "#0E43A3",
-    width: 15,
     padding: 1,
     marginVertical: 2,
   },

@@ -1,6 +1,8 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 import Menu from "../App/Menu";
+import Notification from "../App/Notification";
+import {Ionicons} from "@expo/vector-icons";
 
 const Header = () => {
     return (
@@ -8,7 +10,8 @@ const Header = () => {
             <Menu/>
 
         <View style={styles.notification}>
-          <Text>Notif</Text>
+          <Notification icon={ <Ionicons name="notifications-outline" size={33} color="black"  />}/> 
+          <Image style={styles.image} source={require("../assets/beckham.jpg")}/>
         </View>
       </View>
     )
@@ -19,12 +22,19 @@ export default Header
 const styles = StyleSheet.create({
     header: {
         flexDirection: "row",
-        marginVertical: 30,
-        backgroundColor:'green',
+        marginVertical: 15,
       },
      
       notification: {
-          backgroundColor:'red',
-          flex:1
+        flexDirection:'row',
+          flex:1,
+          justifyContent:'flex-end',
+          alignItems:'center'
       },
+      image:{
+        borderRadius:100,
+        marginLeft:20,
+        height:50,
+        width:50
+      }
 })
